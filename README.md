@@ -1,75 +1,107 @@
-# InvestimentProject
+# 📈 InvestimentProject — Guia de Investimentos 2026
 
-Este Repositório é destinado ao Projeto 1 da Formação Santander 2026 - Automação com N8N.
+> **Projeto 1 da Formação Santander 2026 — Automação e Inteligência Artificial com N8N & NotebookLM**
 
 ---
 
 ## 📋 Escopo da Entrega do Projeto
 
-*Substitua ou complemente esta seção com a descrição detalhada do escopo do seu projeto.*
+O **InvestimentProject** é uma solução desenvolvida no âmbito da **Formação Santander 2026** com o objetivo de fornecer suporte inteligente e automatizado para tomada de decisões financeiras. 
+
+A entrega contempla:
+1. **Curadoria de Conteúdo & Pesquisa:** Análise de dados atualizados sobre o mercado financeiro brasileiro para 2026 (CDI, CDB, Tesouro Direto, Ações, FIIs, etc.).
+2. **Geração de Artefatos com IA (NotebookLM):**
+   - **Tabela Comparativa de Investimentos:** Matriz contendo modalidades, riscos e rentabilidade esperada.
+   - **Resumo em Áudio (Podcast/Audio Overview):** Explicação didática e acessível diferenciando CDI, CDB e Tesouro Direto.
+   - **Apresentação de Slides:** Material executivo resumindo os principais pontos e estratégias do projeto.
+3. **Automação & Integração com N8N:** Estruturação e distribuição dos dados e artefatos de maneira ágil para o usuário final.
 
 ---
 
 ## 🎯 Objetivos
 
-- **Objetivo Geral:** 
-  - Objetivo principal do projeto é ajudar quem quer investirem 2026.
-- **Objetivos Específicos:** 
-  - O objetivo é auxiliar os novos e velhos investidores, para que saibam onde e quando colocar seu dinheiro.
+### 🎯 Objetivo Geral
+Auxiliar tanto **novos quanto experientes investidores** a compreenderem o cenário econômico de 2026, identificando **onde, quando e como investir seu dinheiro** de forma consciente e estratégica.
+
+### 📌 Objetivos Específicos
+- **Desmistificar os principais ativos de Renda Fixa:** Esclarecer com clareza as diferenças operacionais e de rentabilidade entre **CDI, CDB e Tesouro Direto**.
+- **Mapear a relação Risco vs. Retorno:** Criar uma matriz comparativa com as melhores alternativas de investimento disponíveis no Brasil em 2026.
+- **Diversificação de Formatos de Conteúdo:** Disponibilizar informações em múltiplos formatos (tabelas interativas, resumos em áudio e apresentações visuais) para atender a diferentes perfis de aprendizado.
+- **Automação de Fluxos:** Utilizar o **N8N** para orquestrar e integrar as fontes de dados e os resultados gerados por modelos de IA.
 
 ---
 
 ## 📚 Fontes & Referências
 
-- *Links úteis e materiais de apoio:*
-- Videos:
-https://www.youtube.com/watch?v=25ScX8Ixhm4&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=a1aAbhXzWDY&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=vknO2aLRhto&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=feNaG7KQJpQ&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=HEFngcQ3mSA&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=3LPe2gqVU-Y&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=9xBlNRecQ2U&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI2
-https://www.youtube.com/watch?v=IpPnlIVxzsc
-https://www.youtube.com/watch?v=4N1CF5wwTD0&pp=ygUtbWVsaG9yZXMgdGlwb3MgZGUgaW52ZXN0aW1lbnRvIG5vIGJyYXNpbCAyMDI20gcJCf4LAYcqIYzv
+Para garantir a acurácia dos dados e estratégias de investimento de 2026, o projeto utilizou as seguintes fontes de pesquisa:
 
-- Textos:
-https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwizwoDmyOSWAxUJR0gAHZjGFKQYACICCAEQABoCY2U&co=1&ase=2&gclid=EAIaIQobChMIs8KA5sjklgMVCUdIAB2YxhSkEAAYAiAAEgJo4fD_BwE&cid=CAASugHkaOKgGr-fWL8bpE403h0b83U07V_N7OED0p5-CCkBoO5j_lot2YC2m--_eLIgt0iPGZ4Tx-aS_pb6nz6PPRKfEqvSChBGJolUAT2cSbAeouQmwvthtn63HTJE7TogW4PdDLZFrdIFi4hI_ZACxFCVg2oQ52TwFawuTzyu9-mFQUWZMeRSvNqtla_dbm8xMP2cFFv3n8hpElaX59sakK1w3WG06xQzEXufhN50bgSX-1V0zrsx8gsdvhQ&cce=2&category=acrcp_v1_32&sig=AOD64_0p0I2dhr738bImdS1NISwILuGrnw&q&nis=4&adurl=https://www.itau.com.br/uniclass/investimentos?utm_source%3Dgoogle%26utm_medium%3Dsearch%26utm_campaign%3Dgl-midia_paga-uniclass-trafego-always_on_iu%26utm_content%3Dgoogle-2nd-cpc-all_devices-mar_aberto-investimentos_iu-paid_search-investimentos_iu-gp8606379854%26gad_source%3D1%26gad_campaignid%3D24067561155%26gbraid%3D0AAAABD5sjFZ66OmC6z79Z0FBDWlAQUi4W%26gclid%3DEAIaIQobChMIs8KA5sjklgMVCUdIAB2YxhSkEAAYAiAAEgJo4fD_BwE&ved=2ahUKEwjH4vnlyOSWAxVTP7kGHa_0KTUQ0Qx6BAgbEAE
+### 🎥 Vídeos & Análises de Mercado
+- [Principais Tipos de Investimento no Brasil 2026 - Análise 1](https://www.youtube.com/watch?v=25ScX8Ixhm4)
+- [Melhores Investimentos para 2026 - Análise 2](https://www.youtube.com/watch?v=a1aAbhXzWDY)
+- [Onde Investir em 2026 - Guia Prático](https://www.youtube.com/watch?v=vknO2aLRhto)
+- [Comparativo Renda Fixa vs Renda Variável 2026](https://www.youtube.com/watch?v=feNaG7KQJpQ)
+- [Estratégias de Diversificação de Carteira](https://www.youtube.com/watch?v=HEFngcQ3mSA)
+- [Panorama Econômico e Taxa Selic/CDI 2026](https://www.youtube.com/watch?v=3LPe2gqVU-Y)
+- [Tesouro Direto vs CDBs de Bancos](https://www.youtube.com/watch?v=9xBlNRecQ2U)
+- [Guia Completo de Investimentos para Iniciantes](https://www.youtube.com/watch?v=IpPnlIVxzsc)
+- [Análise Santander & Tendências de Mercado](https://www.youtube.com/watch?v=4N1CF5wwTD0)
 
-
-https://www.google.com/goto?url=CAESdAHrOzAVKTWndmGYeoOQ6emoTy7_VaXbRtSu__MCcdbPlNB5TnMkAHeeMHATgUdbyqg0NlEdg3E4zvBo-L-XDgwtX0r9qgAXqKzOtyiDVXhu8sUHJtFClM4JLBooQEQNiLThrta5UsKIvJmFOQZHKttJH7mO
-
-https://www.google.com/goto?url=CAESdwHrOzAV-FLl61ht0FuPM5DiHsiSA07SquulzUxbpkR5SHb_mVWRKf2-TKr1FUZK0vSbgl6bFwYiJN6iDtngEGNvVTV9V7QwCGLHT3ZnqOleJKLafVGT12FPM3hJ4J6Es6g4cA2Xv53pn7GGYbdF_7KLrG4SNG_h
-
-
-https://www.google.com/goto?url=CAEShgEB6zswFTSQSNWNYcAgTzzDnPkT_2-ZgQoDWefIBmpbltumLcs7hQ0wnPqMH5I4qwVgxstOwdAsFxGcvohR-LU8-CVlbdJoQv-t52g8-pXQ2QAli9-gI4Io_Q2VRg_1gPwyl9L85ZLZ-28C1U3B5eB3vN_f_tILN8q2Af19LOwwgzvaEgu1MA
-
-https://www.google.com/goto?url=CAESywEB6zswFVmA3dyBJ0sd7WFMAOERI4b6g6ovvVaXWbkRGE4zko1AYdoMo5TcGBARyu71xMAh9yVK5DSOaHlXGqrJo2dIki04t1pWTQvd9SMH44HodeYYIQfkTodTJOsl6kJRU6FyyhTdku66vOPx5SHl5KFcdjGqRK6E-7c4DiWwjLG_PHwGLsUCVp8zXj_zEHSbHiLZbqgcuDDnDeHpbDizO-NrdQO76U4pEwbQt_W6fpqdbufJhnS0x-KfKSos6dFFk_KI1n668n5CTQ
+### 📄 Artigos & Documentação Oficial
+- [Itaú Uniclass — Guia e Plataforma de Investimentos](https://www.itau.com.br/uniclass/investimentos)
+- [NotebookLM Project Hub](https://notebook.google.com/notebook/8c1b6e39-9e0d-44f6-9238-5d7d508f20b4) *(Base centralizada de conhecimento do projeto)*
 
 ---
 
-## 🧪 Testes de Prompt
+## 🧪 Testes de Prompt & Artefatos Gerados
 
-- **Prompt 1:**
-  - **Entrada / Cenário:** 
-  - **Resultado Esperado:** 
-  - **Resultado Obtido & Observações:** 
-- **Prompt 2:**
-  - **Entrada / Cenário:** 
-  - **Resultado Esperado:** 
-  - **Resultado Obtido & Observações:** 
+Abaixo estão registrados os prompts desenvolvidos para a IA no NotebookLM, acompanhados dos respectivos links para os artefatos gerados.
+
+### 📊 1. Tabela de Dados (Matriz de Investimentos)
+- **Prompt Utilizado:**
+  > *"Crie uma tabela de dados que contenham as melhores formas de investimento, com seus riscos e % de retorno"*
+- **Resultado Esperado:** Uma tabela estruturada comparando modalidades (Renda Fixa, FIIs, Ações, etc.), indicando o nível de risco (Baixo, Médio, Alto) e estimativas de rendimento para 2026.
+- **🔗 Artefato Gerado:** [Acessar Tabela de Dados no NotebookLM](https://notebook.google.com/notebook/8c1b6e39-9e0d-44f6-9238-5d7d508f20b4/artifact/7d471636-d025-4db5-8086-c2a595f94e79)
+
+---
+
+### 🎙️ 2. Resumo em Áudio (Explicativo em Áudio / Audio Overview)
+- **Prompt Utilizado:**
+  > *"Gostaria que você fizesse um resumo sobre a diferença entre CDI, CDB e Tesouro Direto."*
+- **Resultado Esperado:** Um resumo em áudio didático e de fácil assimilação explicando que o CDI é a taxa de referência, o CDB é um título emitido por bancos (com proteção do FGC) e o Tesouro Direto é o empréstimo para o governo federal (menor risco do mercado).
+- **🔗 Artefato Gerado:** [Ouvir Resumo em Áudio no NotebookLM](https://notebook.google.com/notebook/8c1b6e39-9e0d-44f6-9238-5d7d508f20b4/artifact/e6f18ca1-71e4-40d8-b40c-a0704fc7914d)
+
+---
+
+### 🖥️ 3. Apresentação de Slides (Visão Geral do Projeto)
+- **Prompt Utilizado:**
+  > *"Faça uma apresentação minimamente detalhada sobre todo o projeto"*
+- **Resultado Esperado:** Uma apresentação estruturada de slides sintetizando o problema, a solução proposta, a análise de dados realizada e as conclusões do projeto de investimentos.
+- **🔗 Artefato Gerado:** [Visualizar Apresentação de Slides no NotebookLM](https://notebook.google.com/notebook/8c1b6e39-9e0d-44f6-9238-5d7d508f20b4/artifact/4e05c060-5887-4055-967b-a01da78845fb)
 
 ---
 
 ## 📖 Miniguia / Como Executar
 
-### Pré-requisitos
-- *Ferramentas necessárias (ex: Node.js, N8N, Docker, etc.)*
+### 🛠️ Pré-requisitos
+- **N8N instalado:** (Localmente via Docker/npm ou conta Cloud N8N).
+- **Conta Google / NotebookLM:** Para visualização e edição dos cadernos de fontes e artefatos de IA.
+- **Acesso à Internet:** Para consumir as fontes e apis integradas no workflow.
 
-### Passo a Passo
-1. **Configuração do Ambiente:**
-   - *Como clonar/instalar dependências.*
-2. **Importação dos Workflows (N8N):**
-   - *Como importar os fluxos de automação.*
-3. **Execução:**
-   - *Instruções para rodar e testar o projeto.*
+### 🚀 Passo a Passo de Execução
+
+1. **Clonar o Repositório:**
+   ```bash
+   git clone https://github.com/LeonardoGasparTekla/InvestimentProject.git
+   cd InvestimentProject
+   ```
+
+2. **Explorar os Artefatos e Fontes:**
+   - Acesse o [NotebookLM do Projeto](https://notebook.google.com/notebook/8c1b6e39-9e0d-44f6-9238-5d7d508f20b4) para interagir com a base de conhecimento completa.
+
+3. **Configuração e Importação no N8N:**
+   - Abra o seu painel do **N8N**.
+   - Importe os arquivos JSON dos workflows de automação da pasta de workflows (caso aplicável).
+   - Configure as credenciais de API necessárias (se houver envios por e-mail, Telegram ou plataformas de mensagem).
+
+4. **Execução e Testes:**
+   - Ative os workflows no N8N e execute os nós de teste para verificar o disparo das análises de investimento.
