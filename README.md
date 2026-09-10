@@ -47,6 +47,8 @@ Para garantir a acurácia dos dados e estratégias de investimento de 2026, o pr
 - [Análise Santander & Tendências de Mercado](https://www.youtube.com/watch?v=4N1CF5wwTD0)
 
 ### 📄 Artigos & Documentação Oficial
+- [InfoMoney — Onde Investir em 2026: Estratégias e Recomendações](https://www.infomoney.com.br/onde-investir/onde-investir-em-2026-estrategias/)
+- [Investing.com Academy — Melhores Ações para Investir](https://br.investing.com/academy/stocks/melhores-acoes-para-investir/)
 - [Itaú Uniclass — Guia e Plataforma de Investimentos](https://www.itau.com.br/uniclass/investimentos)
 - [NotebookLM Project Hub](https://notebook.google.com/notebook/8c1b6e39-9e0d-44f6-9238-5d7d508f20b4) *(Base centralizada de conhecimento do projeto)*
 
